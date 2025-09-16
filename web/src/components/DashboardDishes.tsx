@@ -49,22 +49,22 @@ export default function DashboardDishes() {
                         <th>Dish</th>
                         <th>Description</th>
                         <th>Price</th>
-                        <th />
+                        <th></th>
                     </tr>
                 </thead>
                 <tbody>
                     {rows.map((d: any, i: number) => (
                         <tr key={d.id} className="border-t border-zinc-400 dark:border-zinc-800">
-                        <td className=" text-gray-500 whitespace-nowrap">
+                        <td className=" text-gray-500">
                             {i + 1}
                         </td>
-                        <td className="whitespace-nowrap overflow-hidden truncate max-w-[12ch]">
+                        <td className="truncate max-w-[10ch]">
                             {d.name}
                         </td>
-                        <td className=" text-gray-600 overflow-hidden truncate max-w-[22ch]">
+                        <td className=" text-gray-600 truncate max-w-[12ch]">
                             {d.description}
                         </td>
-                        <td className="whitespace-nowrap">${d.price}</td>
+                        <td>${d.price}</td>
                         <td className="text-right">
                             <button
                                 className="inline-flex items-center gap-1 rounded-xl px-3 py-1.5 my-0.5

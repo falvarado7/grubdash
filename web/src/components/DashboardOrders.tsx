@@ -43,10 +43,10 @@ export default function DashboardOrders() {
                         const total = (o.dishes ?? []).reduce((s:number,d:any)=> s + ((d.price ?? 0)*(d.quantity ?? 1)), 0);
                         return (
                             <tr key={o.id} className="border-t border-zinc-400 dark:border-zinc-800">
-                                <td className="text-gray-500 whitespace-nowrap">{i+1}</td>
-                                <td className="whitespace-nowrap">{o.deliverTo}</td>
-                                <td className="whitespace-nowrap">{o.mobileNumber}</td>
-                                <td className="font-medium whitespace-nowrap">${total}</td>
+                                <td className="text-gray-500">{i+1}</td>
+                                <td className="truncate max-w-[8ch]">{o.deliverTo}</td>
+                                <td className="truncate max-w-[6ch]">{o.mobileNumber}</td>
+                                <td className="font-medium">${total}</td>
                                 <td><span className={`inline-flex items-center rounded-full px-2 py-0.5 text-xs font-medium ${badge(o.status)}`}>{o.status}</span></td>
                                 <td className="text-right">
                                     <button
