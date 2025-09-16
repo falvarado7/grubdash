@@ -4,7 +4,7 @@ GrubDash is a full-stack food ordering application where users can browse dishes
 It features a modern React + TypeScript frontend, a .NET 9 + Entity Framework Core backend, and a PostgreSQL database hosted on Neon.
 The app is deployed with Fly.io (backend) and Vercel (frontend).
 
-![GrubDash screenshot](screenshot.png) <!-- optional: replace with an actual screenshot -->
+![GrubDash screenshot](./assets/GrubDash-home-light.png)
 
 ---
 
