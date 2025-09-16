@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  @apply bg-zinc-300 text-zinc-900 dark:bg-zinc-950 dark:text-zinc-100 font-sans;
+  overflow-y: scroll;
+}
+
+/* Subtle card & ring helpers */
+.card {
+  @apply rounded-2xl border border-zinc-400 dark:border-zinc-800
+        bg-zinc-200 dark:bg-zinc-900 shadow-sm backdrop-blur;
+}
+.card-hover {
+  @apply transition-transform hover:-translate-y-2 hover:shadow-lg;
+}
+
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield; /* Firefox */
+}
