@@ -1,7 +1,11 @@
 import axios from "axios";
 
+const BASE =
+  import.meta.env.VITE_API_URL // e.g. https://grubdash-api.fly.dev
+  ?? "/api";                   // dev fallback if later add a proxy
+
 export const api = axios.create({
-  baseURL: "/api",
+  baseURL: BASE.replace(/\/+$/,""), // trim trailing slash just in case
   headers: { "Content-Type": "application/json" },
 });
 
