@@ -1,0 +1,25 @@
+# === Global ===
+node_modules/
+dist/
+build/
+.DS_Store
+.env
+*.log
+
+# === Backend (ASP.NET Core) ===
+server/bin/
+server/obj/
+server/*.db
+server/GrubDash.Api/appsettings.Development.json
+server/GrubDash.Api/appsettings.Local.json
+server/GrubDash.Api/appsettings.*.json.local
+
+# === Frontend (Vite / React) ===
+web/node_modules/
+web/dist/
+web/.vite
+web/.env
+web/.env.local
+
+
+

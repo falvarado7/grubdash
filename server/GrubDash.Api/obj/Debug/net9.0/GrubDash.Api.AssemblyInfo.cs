@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GrubDash.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6045fcc5ece598968ad6c8045b2f0ecabff1bc2d")]
 [assembly: System.Reflection.AssemblyProductAttribute("GrubDash.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GrubDash.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
