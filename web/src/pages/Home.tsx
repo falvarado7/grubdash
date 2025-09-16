@@ -26,12 +26,12 @@ export default function Home() {
                         </div>
 
                         {isLoading && (
-                            <div className="rounded-2xl border bg-[hsl(var(--card))] border-[hsl(var(--border))]/60 p-4 shadow-[0_4px_20px_rgba(0,0,0,.06)]">
+                            <div className="rounded-2xl border card p-4 mt-6 shadow-[0_4px_20px_rgba(0,0,0,.06)]">
                             Loading…
                             </div>
                         )}
                         {error && (
-                            <div className="rounded-2xl border bg-[hsl(var(--card))] border-[hsl(var(--border))]/60 p-4 shadow-[0_4px_20px_rgba(0,0,0,.06)]">
+                            <div className="rounded-2xl border card p-4 mt-6 shadow-[0_4px_20px_rgba(0,0,0,.06)]">
                             Failed to load
                             </div>
                         )}

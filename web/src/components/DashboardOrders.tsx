@@ -22,7 +22,7 @@ export default function DashboardOrders() {
     const [open, setOpen] = useState(false);
     const [current, setCurrent] = useState<any | null>(null);
 
-    if (isLoading) return <div className="rounded-2xl card border border-zinc-400 dark:border-zinc-800 p-4 shadow-2xl">Loading orders…</div>;
+    if (isLoading) return <div className="rounded-2xl card border mt-6 border-zinc-400 dark:border-zinc-800 p-4 shadow-2xl">Loading orders…</div>;
 
     return (
         <div className="rounded-2xl card mt-6 p-4 shadow-2xl">
