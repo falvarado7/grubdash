@@ -62,6 +62,8 @@ using (var scope = app.Services.CreateScope())
 
 app.MapGet("/health", () => Results.Ok(new { ok = true }));
 
+app.Urls.Add("http://+:8080");
+
 // =====================================================================
 //                         Validation
 // =====================================================================

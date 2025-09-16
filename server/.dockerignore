@@ -1,0 +1,14 @@
+**/bin
+**/obj
+**/*.user
+**/*.swp
+**/*.suo
+**/*.userprefs
+**/*.vcxproj.user
+**/*.db
+**/*.sqlite
+**/*.mdf
+**/*.ldf
+**/.git
+**/.github
+**/.vscode
